@@ -13,11 +13,9 @@ function main(){
 	cp "${userFile}" "diff_material/${userFile}";
 	cp "${entriesFile}" "diff_material/${entriesFile}";
 
-	node retrieveAWC19Data.js "${userFile}" "${entriesFile}"
-	
-	#echo "$(node retrieveAWC19Data.js "${userFile}" "${entriesFile}")"
+	echo "$(node retrieveAWC19Data.js "${userFile}" "${entriesFile}")"
 
-	needUpdate=1;
+
 
 	hasGrown "${userFile}"
 	if [ 0 -eq $? ]; then 
@@ -50,7 +48,13 @@ function hasGrown(){
 }
 
 
+needUpdate=1;
+
 main >> scrap.log;
 
-
+if [ 0 -eq $needUpdate ]; then 
+	git add scrap.log
+	git commit -m "Updated logs"
+	git push
+fi
 
