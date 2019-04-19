@@ -1,1 +1,61 @@
 
+Running on mardi 16 avril 2019, 20:17:25 (UTC+0200)
+Folder already existed
+Read user 1/9: Hackser_
+Read user 2/9: TuyNOM
+Read user 3/9: Rieze
+Read user 4/9: Hikky_
+Read user 5/9: LordRukario
+Read user 6/9: ScarletCelestial
+Read user 7/9: lanblade
+Read user 8/9: Dysp
+Read user 9/9: ohml
+Will attempt to save scrapped data as AWC19perUser.json
+File AWC19perUser.json already exists, processing old content and merging
+Saved AWC19perUser.json
+Compiling data into an anonymous, entry-oriented basis
+Done compiling
+Will attempt to save compiled data as AWC19perEntries.json
+Saved AWC19perEntries.json
+No update needed
+Running on mercredi 17 avril 2019, 06:00:01 (UTC+0200)
+Folder already existed
+
+No update needed
+Running on jeudi 18 avril 2019, 06:00:01 (UTC+0200)
+Folder already existed
+
+No update needed
+Running on vendredi 19 avril 2019, 06:00:01 (UTC+0200)
+Folder already existed
+
+No update needed
+Running on vendredi 19 avril 2019, 21:00:01 (UTC+0200)
+Folder already existed
+
+No update needed
+Running on vendredi 19 avril 2019, 21:14:13 (UTC+0200)
+Folder already existed
+Read user 1/10: Hackser_
+Read user 2/10: TuyNOM
+Read user 3/10: Rieze
+Read user 4/10: Hikky_
+Read user 5/10: LordRukario
+Read user 6/10: ScarletCelestial
+Read user 7/10: lanblade
+Read user 8/10: Dysp
+Read user 9/10: dixcloxure
+Read user 10/10: ohml
+Will attempt to save scrapped data as AWC19perUser.json
+File AWC19perUser.json already exists, processing old content and merging
+Saved AWC19perUser.json
+Compiling data into an anonymous, entry-oriented basis
+Done compiling
+Will attempt to save compiled data as AWC19perEntries.json
+Saved AWC19perEntries.json
+Adding AWC19perUser.json
+Adding AWC19perEntries.json
+Commiting changes
+[master b4033e7] Automated update vendredi 19 avril 2019, 21:15:06 (UTC+0200)
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+ rewrite AWC19perEntries.json (99%)
