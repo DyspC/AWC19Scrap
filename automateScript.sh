@@ -13,7 +13,7 @@ function main(){
 	cp "${userFile}" "diff_material/${userFile}";
 	cp "${entriesFile}" "diff_material/${entriesFile}";
 
-	echo "$(node retrieveAWC19Data.js "${userFile}" "${entriesFile}")"
+	echo "$(/home/cdescamp/.nvm/versions/node/v10.15.1/bin/node retrieveAWC19Data.js "${userFile}" "${entriesFile}")"
 
 
 
@@ -50,7 +50,7 @@ function hasGrown(){
 
 needUpdate=1;
 
-main >> scrap.log;
+main >> scrap.log 2>> error.log;
 
 if [ 0 -eq $needUpdate ]; then 
 	git add scrap.log
