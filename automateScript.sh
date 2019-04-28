@@ -52,9 +52,9 @@ needUpdate=1;
 
 main >> scrap.log 2>> error.log;
 
-if [ 0 -eq $needUpdate ]; then 
-	git add scrap.log
-	git commit -m "Updated logs"
-	git push
-fi
+#if [ 0 -eq $needUpdate ]; then 
+#	git add scrap.log
+#	git commit -m "Updated logs"
+#	git push
+#fi
 
